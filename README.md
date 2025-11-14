@@ -15,7 +15,6 @@ This project is a simple React app that allows users to search through articles 
 ## How to Run
 
 1. Clone the repo:
-   ```bash
    git clone https://github.com/jadhanna99/text-search-react.git
    cd text-search-react
 Install dependencies:
