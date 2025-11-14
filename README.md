@@ -1,16 +1,47 @@
-# React + Vite
+# Text Search React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React app that allows users to search through articles and highlights matching keywords in titles and bodies.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search box with live filtering
+- Case-insensitive search
+- Multiple keyword support
+- Highlight matches using <mark>
+- Match counts displayed
+- Clear search button
+- Simple, clean UI
 
-## React Compiler
+## How to Run
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/jadhanna99/text-search-react.git
+   cd text-search-react
+Install dependencies:
 
-## Expanding the ESLint configuration
+bash
+Copy code
+npm install
+Start development server:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy code
+npm run dev
+Open your browser and go to:
+
+arduino
+Copy code
+http://localhost:5173/
+Comments on Solution
+Implemented a fully front-end React search component without any backend.
+
+Articles are stored in a static array inside src/App.jsx.
+
+Highlighting is case-insensitive and works with multiple words.
+
+Input is debounced for performance.
+
+Simple UI with a clear button, match counts, and styled highlights.
+
+Project ready to be run locally with minimal setup.
