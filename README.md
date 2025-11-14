@@ -20,17 +20,14 @@ This project is a simple React app that allows users to search through articles 
    cd text-search-react
 Install dependencies:
 
-bash
 Copy code
 npm install
 Start development server:
 
-bash
 Copy code
 npm run dev
 Open your browser and go to:
 
-arduino
 Copy code
 http://localhost:5173/
 Comments on Solution
